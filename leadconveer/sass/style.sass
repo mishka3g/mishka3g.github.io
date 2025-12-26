@@ -1,0 +1,244 @@
+* 
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+.container 
+  max-width: 1780px
+  padding: 0
+  margin: 0 auto
+a 
+  color: inherit
+  text-decoration: none
+button 
+  padding: 0
+  border: none
+  background-color: transparent
+ul 
+  list-style: none
+
+$ff: "Inter", sans-serif
+$sf: "Montserrat", sans-serif
+$tf: "Kollektif", sans-serif
+
+$light-grey: #f6f6f6
+$orange-juice: #f60
+$white: #fff
+$dark-grey: #2d2d2d
+$grey: #808080
+$blueberry: #8a38d6
+$grey2: #c0c0c0
+
+.main-title 
+  font-family: $sf
+  font-weight: 700
+  font-size: 48px
+  line-height: 108%
+  text-align: center
+  color: $dark-grey
+  span
+    color: $orange-juice
+
+.hero
+  &-wrapper
+    background-color: $light-grey
+    border-bottom-left-radius: 35px
+    border-bottom-right-radius: 35px
+
+.header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  background-color: $dark-grey
+  border-bottom-left-radius: 35px
+  border-bottom-right-radius: 35px
+  padding: 6px 30px
+  &-logo
+    width: 20%
+  &-nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 30% 
+    &-link
+      font-family: $ff
+      font-weight: 400
+      font-size: 24px
+      color: $white
+    &-link:hover
+      color: $grey2
+      cursor: pointer
+    &-link:active
+      color: $orange-juice
+  &-links
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 20%
+    a
+      font-family: $ff
+      font-weight: 400
+      font-size: 32px
+      color: $white
+    a:hover
+      color: $grey2
+      cursor: pointer
+    a:active
+      color: $orange-juice
+
+.hero
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
+  &-main
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    padding: 60px 0 0 0
+    &-info
+      width: 45%
+    &-title
+      font-family: $sf
+      font-weight: 700
+      font-size: 80px
+      line-height: 100%
+      color: $orange-juice
+      width: 70%
+      span
+        color: $dark-grey
+    &-subtitle
+      display: flex
+      align-items: center
+      justify-content: space-between
+      font-family: $ff
+      font-weight: 400
+      font-size: 32px
+      color: $dark-grey
+      width: 73%
+      margin: 40px 0
+    &-btn
+      border-radius: 20px
+      background: $orange-juice
+      padding: 22px 0
+      width: 100%
+      font-family: $tf
+      font-weight: 400
+      font-size: 24px
+      text-transform: uppercase
+      text-align: center
+      color: $white 
+    &-btn:hover
+      background: #ff9832
+      cursor: pointer
+    &-btn:active
+      background: #cd3400
+    &-btn:disable
+      background: $grey2
+
+    &-images
+      position: relative
+  &-main-star
+    position: absolute
+    bottom: 15%
+    left: -3%
+  &-main-star2
+    position: absolute
+    top: 21%
+    right: -3%
+
+  &-items
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 60px
+  &-item
+    font-family: $ff
+    font-weight: 400
+    font-size: 20px
+    text-align: center
+    color: $grey
+    padding: 32px 27px
+    margin: 0 10px
+    background: $white
+    border-top-left-radius: 30px
+    border-top-right-radius: 30px
+
+.second 
+  display: flex
+  align-items: center
+  flex-direction: column
+  &-wrapper
+    padding: 143px 0 97px 0
+  &-title
+    width: 50%  
+  &-items
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-top: 40px
+  &-item
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 49.5%
+    border-radius: 30px
+    background: $light-grey
+    margin: 10px 0
+    &-info
+      margin-left: 40px
+    &-title
+      display: flex
+      align-items: center
+      justify-content: space-between
+      font-family: $ff
+      font-weight: 400
+      font-size: 32px
+      color: $dark-grey
+      width: 80%
+    &-title:nth-child(3)
+      width: 100%
+    &-text
+      font-family: $ff
+      font-weight: 400
+      font-size: 24px
+      color: $grey
+      margin-top: 20px
+
+.footer
+  display: flex
+  flex-direction: column
+  align-items: center
+  &-wrapper
+    background-color: $dark-grey
+    border-top-left-radius: 35px
+    border-top-right-radius: 35px
+    padding: 80px 
+  &-license
+    font-family: $ff
+    font-weight: 400
+    font-size: 32px
+    text-align: center
+    color: $white
+  &-inn
+    font-family: $ff
+    font-weight: 400
+    font-size: 24px
+    text-align: center
+    color: $white
+    margin: 20px 0 40px 0
+  &-links
+    display: flex
+    align-items: center
+    justify-content: space-between
+    // width: 100%
+    width: 1144px
+
+    font-family: $ff
+    font-weight: 400
+    font-size: 20px
+    text-align: center
+    color: $grey
+
+  &-link
