@@ -146,6 +146,8 @@ $grey2: #c0c0c0
     position: absolute
     top: 21%
     right: -3%
+  &-main-img
+    width: 100%
 
   &-items
     display: flex
@@ -241,4 +243,28 @@ $grey2: #c0c0c0
     text-align: center
     color: $grey
 
-  &-link
+
+
+@media (max-width: 1740px) 
+  .header-nav
+    width: 550px
+  .header-links
+    width: 280px
+  .header-links a
+    font-size: 24px
+
+  .hero-main-title
+    font-size: 64px
+  .hero
+    overflow: hidden
+
+@media (max-width: 1250px) 
+  .hero-main-title
+    font-size: 48px
+  .hero-main-img 
+    width: 100%
+  
+  .second-item
+    width: 100%
+
+  

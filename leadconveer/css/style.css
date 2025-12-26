@@ -190,6 +190,10 @@ ul {
   right: -3%;
 }
 
+.hero-main-img {
+  width: 100%;
+}
+
 .hero-items {
   display: flex;
   align-items: center;
@@ -309,4 +313,34 @@ ul {
   font-size: 20px;
   text-align: center;
   color: #808080;
+}
+
+@media (max-width: 1740px) {
+  .header-nav {
+    width: 550px;
+  }
+  .header-links {
+    width: 280px;
+  }
+  .header-links a {
+    font-size: 24px;
+  }
+  .hero-main-title {
+    font-size: 64px;
+  }
+  .hero {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hero-main-title {
+    font-size: 48px;
+  }
+  .hero-main-img {
+    width: 100%;
+  }
+  .second-item {
+    width: 100%;
+  }
 }
